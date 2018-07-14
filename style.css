@@ -250,5 +250,52 @@
 	padding-left: 12px;
 	position: absolute;
 	top: 225px;
-	
+
+}
+
+.offer__offer-left {}
+
+.offer__offer-right {}
+
+.offer {
+	display: flex;
+	height: 823px;
+	width: 1140px;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 98px;
+}
+
+.offer__man {
+	height: 543px;
+	width: 560px;
+	background-image: url(images/man-2.jpg);
+}
+
+.offer__women {
+	height: 543px;
+	width: 560px;
+	background-image: url(images/woman.jpg);
+	margin-top: 20px;
+}
+
+.offer__kids {
+	height: 260px;
+	width: 560px;
+	margin-top: 20px;
+	background-image: url(images/baby.jpg);
+}
+
+.offer__accesories {
+	height: 260px;
+	width: 560px;
+	background-image: url(images/pram.jpg);
+
+}
+
+.block {
+	height: 100px;
+	width: 1140px;
+	border: 1px solid black;
+	margin: 0 auto;
 }
