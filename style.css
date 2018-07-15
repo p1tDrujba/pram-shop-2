@@ -253,10 +253,6 @@
 
 }
 
-.offer__offer-left {}
-
-.offer__offer-right {}
-
 .offer {
 	display: flex;
 	height: 823px;
@@ -270,6 +266,7 @@
 	height: 543px;
 	width: 560px;
 	background-image: url(images/man-2.jpg);
+	position: relative;
 }
 
 .offer__women {
@@ -277,6 +274,7 @@
 	width: 560px;
 	background-image: url(images/woman.jpg);
 	margin-top: 20px;
+	position: relative;
 }
 
 .offer__kids {
@@ -284,12 +282,14 @@
 	width: 560px;
 	margin-top: 20px;
 	background-image: url(images/baby.jpg);
+	position: relative;
 }
 
 .offer__accesories {
 	height: 260px;
 	width: 560px;
 	background-image: url(images/pram.jpg);
+	position: relative;
 
 }
 
@@ -298,4 +298,125 @@
 	width: 1140px;
 	border: 1px solid black;
 	margin: 0 auto;
+}
+
+.offer__title-man {
+	width: 175px;
+	height: 82px;
+	position: absolute;
+	top: 26px;
+	background-color: white;
+}
+
+.offer__title-black {
+	margin: 0px;
+	padding 0px;
+	font-family: Lato;
+	color: #222222;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 16px;
+	margin-left: 19px;
+
+}
+
+.offer__title-pink {
+	margin: 0px;
+	padding 0px;
+	font-family: Lato;
+	color: #f16d7f;
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-left: 19px;
+}
+
+.offer__title-kids {
+	width: 180px;
+	height: 82px;
+	background-color: white;
+	position: absolute;
+	top: 25px;
+
+}
+
+.offer__title-accesories {
+	width: 225px;
+	height: 82px;
+	background-color: white;
+	position: absolute;
+	top: 25px;
+}
+
+.offer__title-women {
+	height: 82px;
+	width: 162px;
+	position: absolute;
+	top: 26px;
+	background-color: white;
+}
+
+.offer__link {
+	display: block;
+}
+
+.offer__link:hover {
+	box-shadow: 0 5px 20px -5px black;
+}
+
+.offer__link:active {
+	opacity: 0.5;
+}
+
+
+.featured-items__title {
+	height: 51px;
+	width: 348px;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 100px;
+
+}
+
+.featured-items__title-black {
+	font-family: Lato;
+	color: #222222;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.featured-items__title-grey {
+	font-family: Lato;
+	color: #9f9f9f;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-top: 16px;
+}
+
+.featured-items__flex {
+	height: 765px;
+	width: 1139px;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.featured-items__item {
+	height: 364px;
+	width: 263px;
+	background-color: aqua;
 }
