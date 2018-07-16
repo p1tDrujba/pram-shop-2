@@ -595,11 +595,14 @@
 	background-image: url(images/subscription-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	
 }
 
 .subscription__flex {
 	display: flex;
 	margin: 0 auto;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .subscription__left {
@@ -737,3 +740,9 @@
 	text-align: center;
 }
 
+
+.red {
+	background-image: url(images/subscription-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
