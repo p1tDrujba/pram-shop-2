@@ -595,7 +595,7 @@
 	background-image: url(images/subscription-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	
+
 }
 
 .subscription__flex {
@@ -603,9 +603,10 @@
 	margin: 0 auto;
 	margin-left: 15px;
 	margin-right: 15px;
+	position: relative;
 }
 
-.subscription__left {
+.subscription__left-1 {
 	width: 570px;
 	height: 438px;
 	display: flex;
@@ -631,6 +632,20 @@
 	margin-top: 111px;
 }
 
+.subscription__face-2 {
+	width: 83px;
+	height: 83px;
+	background-image: url(images/face-2.png);
+	margin-top: 111px;
+}
+
+.subscription__face-3 {
+	width: 83px;
+	height: 83px;
+	background-image: url(images/face-3.png);
+	margin-top: 111px;
+}
+
 .subscription__words {
 	font-family: Lato;
 	color: rgba(34, 34, 36, 0.67);
@@ -642,6 +657,9 @@
 	padding: 0;
 	margin-top: 123px;
 	font-weight: 550;
+	display: block;
+	width: 386px;
+	height: 68px;
 }
 
 .subscription__name {
@@ -741,8 +759,87 @@
 }
 
 
-.red {
+.fix-for-mobile {
 	background-image: url(images/subscription-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.subscription__left-underline {
+	display: flex;
+	justify-content: space-between;
+	width: 140px;
+	height: 4px;
+	position: absolute;
+	top: 278px;
+	left: 114px;
+}
+
+.subscription__left-underline-line-2:hover + subscription__left-underline-line-1 {
+	background-color:  #d6d6d6;
+}
+
+.subscription__left-underline-line-1 {
+	width: 38px;
+	height: 4px;
+	position: absolute;
+	top: 278px;
+	left: 114px;
+	background-color:  #f16d7f;
+}
+
+.subscription__left-underline-line-2 {
+	background-color:  #d6d6d6;
+	width: 38px;
+	height: 4px;
+	position: absolute;
+	top: 278px;
+	left: 165px;
+}
+
+.subscription__left-underline-line-2:hover ~ .subscription__left-1 {
+	display: none;
+}
+
+.subscription__left-underline-line-2:hover ~ .subscription__left-2 {
+	display: inherit;
+}
+
+.subscription__left-underline-line-2:hover {
+	background-color:  #f16d7f;
+}
+
+.subscription__left-underline-line-3 {
+	background-color:  #d6d6d6;
+	width: 38px;
+	height: 4px;
+	position: absolute;
+	top: 278px;
+	left: 216px;
+}
+
+.subscription__left-underline-line-3:hover ~ .subscription__left-1 {
+	display: none;
+}
+
+.subscription__left-underline-line-3:hover ~ .subscription__left-3 {
+	display: inherit;
+}
+
+.subscription__left-underline-line-3:hover {
+	background-color:  #f16d7f;
+}
+
+.subscription__left-2 {
+	width: 570px;
+	height: 438px;
+	display: flex;
+	display: none;
+}
+
+.subscription__left-3 {
+	width: 570px;
+	height: 438px;
+	display: flex;
+	display: none;
 }
