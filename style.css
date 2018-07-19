@@ -785,7 +785,7 @@
 	position: absolute;
 	top: 278px;
 	left: 114px;
-	background-color:  #f16d7f;
+	background-color:  #d6d6d6;
 }
 
 .subscription__left-underline-line-2 {
@@ -842,4 +842,21 @@
 	height: 438px;
 	display: flex;
 	display: none;
+}
+
+.subscription__checkbox_hide {
+	display: none;
+}
+
+.hide~.gay,
+.hide:checked+.gay {
+  visibility: hidden;
+}
+
+.hide:checked+.suka+.gay {
+	visibility: visible;
+}
+
+.hide:checked+.suka>.bla {
+	background-color: red;
 }
