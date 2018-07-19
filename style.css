@@ -612,11 +612,6 @@
 	display: flex;
 }
 
-.subscription__right {
-	width: 570px;
-	height: 438px;
-}
-
 .subscription__left-leftside {
 	width: 113px;
 }
@@ -629,20 +624,6 @@
 	width: 83px;
 	height: 83px;
 	background-image: url(images/face.png);
-	margin-top: 111px;
-}
-
-.subscription__face-2 {
-	width: 83px;
-	height: 83px;
-	background-image: url(images/face-2.png);
-	margin-top: 111px;
-}
-
-.subscription__face-3 {
-	width: 83px;
-	height: 83px;
-	background-image: url(images/face-3.png);
 	margin-top: 111px;
 }
 
@@ -681,102 +662,11 @@
 	padding: 0;
 }
 
-.subscription__subscribe {
-	font-family: Lato;
-	color: rgba(34, 34, 36, 0.67);
-	font-size: 24px;
-	font-weight: 400;
-	text-transform: uppercase;
-	margin: 0;
-	padding: 0;
-	margin: 0 auto;
-	margin-top: 148px;
-	margin-left: 210px;
-
-}
-
-.subscription__subscribe-for {
-	font-family: Lato;
-	color: rgba(34, 34, 36, 0.67);
-	font-size: 14px;
-	text-transform: uppercase;
-	margin: 0 auto;
-	margin-left: 138px;
-}
-
-.forma {
-	margin: 0 auto;
-}
-
-.subscription__allform {
-	display: flex;
-	border-bottom-right-radius: 3px;
-	border-top-right-radius: 3px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #e6e6e6;
-	box-sizing: border-box;
-	background-color: #ffffff;
-	width: 350px;
-	height: 38px;
-	justify-content: space-between;
-	margin-top: 35px;
-}
-
-.subscription__input-text {
-	height: 46px;
-	width: 270px;
-	box-sizing: border-box;
-	border-style: none;
-	padding-left: 15px;
-	background-color: #e1e1e1;
-}
-
-
-
-.subscription__input-text[type="text"]::placeholder {
-	font-family: Lato;
-	color: #a4a4a4;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 32px;
-}
-
-
-.subscription__right-side-block {
-	background-color: #f16d7f;
-	width: 104px;
-	height: 46px;
-}
-
-.subscriptiom_right-side-text {
-	display: block;
-	font-family: Lato;
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: 400;
-	text-align: center;
-}
-
 
 .fix-for-mobile {
 	background-image: url(images/subscription-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-}
-
-.subscription__left-underline {
-	display: flex;
-	justify-content: space-between;
-	width: 140px;
-	height: 4px;
-	position: absolute;
-	top: 278px;
-	left: 114px;
-}
-
-.subscription__left-underline-line-2:hover + subscription__left-underline-line-1 {
-	background-color:  #d6d6d6;
 }
 
 .subscription__left-underline-line-1 {
@@ -785,78 +675,55 @@
 	position: absolute;
 	top: 278px;
 	left: 114px;
-	background-color:  #d6d6d6;
+	background-color: #d6d6d6;
+}
+
+.subscription__checkbox-1 {
+	display: none;
+}
+
+.subscription__checkbox-1 ~ .subscription__left-1,
+.subscription__checkbox-1:checked {
+	visibility: hidden;
+}
+
+.subscription__checkbox-1:checked + .line-1-label + .subscription__left-1 {
+	visibility: visible;
+}
+
+.subscription__checkbox-1:checked + .line-1-label > .subscription__left-underline-line-1 {
+	background-color: #f16d7f;
 }
 
 .subscription__left-underline-line-2 {
-	background-color:  #d6d6d6;
 	width: 38px;
 	height: 4px;
 	position: absolute;
 	top: 278px;
-	left: 165px;
+	left: 250px;
+	background-color: #d6d6d6;
 }
 
-.subscription__left-underline-line-2:hover ~ .subscription__left-1 {
-	display: none;
+
+.subscription__checkbox-2 {
+/*	display: none;*/
 }
 
-.subscription__left-underline-line-2:hover ~ .subscription__left-2 {
-	display: inherit;
+.subscription__checkbox-2 ~ .subscription__left-2,
+.subscription__checkbox-2:checked {
+	border: 1px solid black;
 }
 
-.subscription__left-underline-line-2:hover {
-	background-color:  #f16d7f;
+.subscription__checkbox-2:checked + .line-2-label + .subscription__left-2 {
+	visibility: hidden;
 }
 
-.subscription__left-underline-line-3 {
-	background-color:  #d6d6d6;
-	width: 38px;
-	height: 4px;
-	position: absolute;
-	top: 278px;
-	left: 216px;
-}
-
-.subscription__left-underline-line-3:hover ~ .subscription__left-1 {
-	display: none;
-}
-
-.subscription__left-underline-line-3:hover ~ .subscription__left-3 {
-	display: inherit;
-}
-
-.subscription__left-underline-line-3:hover {
-	background-color:  #f16d7f;
+.subscription__checkbox-2:checked + .line-2-label > .subscription__left-underline-line-2 {
+	background-color: #f16d7f;
 }
 
 .subscription__left-2 {
 	width: 570px;
 	height: 438px;
 	display: flex;
-	display: none;
-}
-
-.subscription__left-3 {
-	width: 570px;
-	height: 438px;
-	display: flex;
-	display: none;
-}
-
-.subscription__checkbox_hide {
-	display: none;
-}
-
-.hide~.gay,
-.hide:checked+.gay {
-  visibility: hidden;
-}
-
-.hide:checked+.suka+.gay {
-	visibility: visible;
-}
-
-.hide:checked+.suka>.bla {
-	background-color: red;
 }
