@@ -32,9 +32,9 @@
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 27;
+	font-size: 27px;
 	line-height: 32px;
-	margin-left: 13px;
+	margin-left: 9px;
 }
 
 .left-side-header__title_pink-letter {
@@ -712,11 +712,7 @@
 	display: flex;
 	border-bottom-right-radius: 3px;
 	border-top-right-radius: 3px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #e6e6e6;
 	box-sizing: border-box;
-	background-color: #ffffff;
 	width: 350px;
 	height: 38px;
 	justify-content: space-between;
@@ -729,25 +725,22 @@
 	box-sizing: border-box;
 	border-style: none;
 	padding-left: 15px;
+	padding-right: 15px;
 	background-color: #e1e1e1;
+	border-radius: 20px 0 0 20px;
 }
 
 
 
 .subscription__input-text[type="text"]::placeholder {
 	font-family: Lato;
-	color: #a4a4a4;
+	color: rgba(34, 34, 36, 0.67);
 	font-size: 14px;
-	font-weight: 300;
-	line-height: 32px;
+	font-weight: 400;
+	line-height: 54px;
 }
 
 
-.subscription__right-side-block {
-	background-color: #f16d7f;
-	width: 104px;
-	height: 46px;
-}
 
 .subscriptiom_right-side-text {
 	display: block;
@@ -776,7 +769,7 @@
 }
 
 .subscription__left-underline-line-2:hover + subscription__left-underline-line-1 {
-	background-color:  #d6d6d6;
+	background-color: #d6d6d6;
 }
 
 .subscription__left-underline-line-1 {
@@ -785,11 +778,11 @@
 	position: absolute;
 	top: 278px;
 	left: 114px;
-	background-color:  #f16d7f;
+	background-color: #f16d7f;
 }
 
 .subscription__left-underline-line-2 {
-	background-color:  #d6d6d6;
+	background-color: #d6d6d6;
 	width: 38px;
 	height: 4px;
 	position: absolute;
@@ -806,11 +799,11 @@
 }
 
 .subscription__left-underline-line-2:hover {
-	background-color:  #f16d7f;
+	background-color: #f16d7f;
 }
 
 .subscription__left-underline-line-3 {
-	background-color:  #d6d6d6;
+	background-color: #d6d6d6;
 	width: 38px;
 	height: 4px;
 	position: absolute;
@@ -827,7 +820,7 @@
 }
 
 .subscription__left-underline-line-3:hover {
-	background-color:  #f16d7f;
+	background-color: #f16d7f;
 }
 
 .subscription__left-2 {
@@ -843,3 +836,44 @@
 	display: flex;
 	display: none;
 }
+
+.subscription__form {
+	background-color: #f0f0f0;
+	border: 0px solid black;
+	
+}
+
+.subscription__button {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	background-color: #f16d7f;
+	width: 104px;
+	height: 46px;
+	border-radius: 0 20px 20px 0;
+}
+
+.subscription__button:hover {
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+
+.subscription__button:active {
+	opacity: 0.5;
+}
+.footer-top {
+	height: 458px;
+}
+
+.left-side-header__logo-link {
+	display: block;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	width: 165px;
+	padding: 0;
+}
+
+
