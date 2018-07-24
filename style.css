@@ -840,7 +840,7 @@
 .subscription__form {
 	background-color: #f0f0f0;
 	border: 0px solid black;
-	
+
 }
 
 .subscription__button {
@@ -862,8 +862,14 @@
 .subscription__button:active {
 	opacity: 0.5;
 }
+
 .footer-top {
 	height: 458px;
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .left-side-header__logo-link {
@@ -877,3 +883,61 @@
 }
 
 
+
+.footer-top__shop-description-text {
+	display: block;
+	font-family: Lato;
+	color: #898989;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	width: 427px;
+}
+
+.footer-top__nav-item {
+	font-family: Lato;
+	color: #898989;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0;
+
+}
+
+.footer-top__title {
+	font-family: Lato;
+	color: #f16d7f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+
+
+.footer-top__list {
+	list-style-type: none;
+	padding: 0;
+	width: 150px;
+}
+
+
+
+.footer-top__link:nth-child(n+2) {
+	margin-top: 31px;
+	;
+
+}
+
+.footer-top__link {
+	display: block;
+	text-decoration: none;
+}
+
+.footer-top__link :hover {
+	color: #5a5a5a;
+	font-weight: bold;
+}
+
+.footer-top__link:active {
+	opacity: 0.5;
+}
