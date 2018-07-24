@@ -863,14 +863,7 @@
 	opacity: 0.5;
 }
 
-.footer-top {
-	height: 458px;
-	display: flex;
-	padding-left: 15px;
-	padding-right: 15px;
-	justify-content: space-between;
-	align-items: center;
-}
+
 
 .left-side-header__logo-link {
 	display: block;
@@ -940,4 +933,87 @@
 
 .footer-top__link:active {
 	opacity: 0.5;
+}
+
+.footer-bottom {
+	background-color: #e6e6e6;
+	height: 79px;
+}
+
+.footer-top__flex {
+	height: 458px;
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-bottom__copyright {
+	display: block;
+	font-family: Lato;
+	color: #7a7a7a;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.footer-bottom__social {
+	display: flex;
+}
+
+.footer-bottom__social-item {
+	height: 32px;
+	width: 32px;
+	background-color: white;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.footer-bottom__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 79px;
+}
+
+.footer-bottom__social-item:nth-child(n+1) {
+	margin-left: 8px;
+}
+
+.footer-bottom__social-item:hover {
+	background-color: #f16d7f;
+}
+
+.footer-bottom__social-item:active {
+	background-color: #a6d0cf;
+}
+
+.fb {
+	background-image: url(images/facebooklogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.tw {
+	background-image: url(images/twitterlogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ln {
+	background-image: url(images/linkediblogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.xz {
+	background-image: url(images/xzlogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gp {
+	background-image: url(images/gpluslogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
