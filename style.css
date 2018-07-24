@@ -104,7 +104,6 @@
 	box-sizing: border-box;
 	border-style: none;
 	padding-left: 15px;
-	padding-right: 15px;
 }
 
 .left-side-header__input-text[type="text"]::placeholder {
@@ -884,6 +883,8 @@
 	height: 32px;
 	width: 32px;
 	background-color: white;
+	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 .footer-bottom__flex {
@@ -934,6 +935,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 
 
 
@@ -1001,3 +1003,5 @@
 	font-weight: bold;
 	background-color: aqua;
 }
+=======
+>>>>>>> parent of 28b2812... Доделки к уроку 2
