@@ -1044,10 +1044,15 @@
 	text-decoration: none;
 }
 
-.featured-items__top:hover img {
+.featured-items__item:hover .suka {
 	filter:brightness(50%);
 }
 
 .featured-items__item:hover .featured-items__bottom {
 	display: block;
+}
+
+.featured-items__bottom:hover {
+	background: #f16d7f;
+	transition: all 0.6s ease;
 }
