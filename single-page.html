@@ -4,13 +4,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Интернет-магазин детских колясок Пау-Пау!</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="normalize.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
+
 	<!--Начало header-->
 	<header class="header">
 		<div class="container">
@@ -74,7 +76,7 @@
 		<div class="container">
 			<ul class="nav__list">
 				<li class="nav__item">
-					<a class="nav__link" href="#">home</a>
+					<a class="nav__link" href="index.html">home</a>
 					<div class="nav__mega-menu">
 						<div class="nav__mega-menu-flex">
 							<h3 class="nav__mega-menu-title">Women</h3>
@@ -233,226 +235,63 @@
 		</div>
 	</nav>
 	<!--конец nav-->
-	<main>
-		<!--начало слайдра-->
-		<div class="content">
-			<div class="container slider-container">
-				<div class="slider">
-					<div class="slider__text">
-						<h2 class="slider__title">the brand</h2>
-						<p class="slider__slogan">of luserious <span class="slider_text-decoration">fashion</span></p>
-					</div>
+	<!--начало breadcrumbs-->
+	<div class="breadcrumps">
+		<div class="container breadcrumbs-container">
+			<div class="breadcrumbs__flex">
+				<h1 class="breadcrumbs__title">new arrivals</h1>
+				<div class="breadcrumbs__links">
+					<a class="breadcrumbs__link" href="index.html">home/</a><a class="breadcrumbs__link" href="#">men/</a><a class="breadcrumps__link" href="#"><span class="breadcrumbs__actual-page">new arrivals</span></a>
 				</div>
 			</div>
 		</div>
-		<!--конец слайдера-->
-		<!--начало offer-->
-		<div class="main-offer">
-			<div class="container">
-				<section class="offer">
-					<div class="offer__offer-left">
-						<a class="offer__link" href="#" alt="men" title="MEN">
-							<div class="offer__man">
-								<div class="offer__title-man">
-									<p class="offer__title-black">hot deal</p>
-									<p class="offer__title-pink">for men</p>
-								</div>
-							</div>
-						</a>
-						<a class="offer__link" href="#" alt="men" title="MEN">
-							<div class="offer__kids">
-								<div class="offer__title-kids">
-									<p class="offer__title-black">new arrivals</p>
-									<p class="offer__title-pink">for kids</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="offer__offer-right">
-						<a class="offer__link" href="#" alt="men" title="MEN">
-							<div class="offer__accesories">
-								<div class="offer__title-accesories">
-									<p class="offer__title-black">luxirous & trendy</p>
-									<p class="offer__title-pink">accesories</p>
-								</div>
-							</div>
-						</a>
-						<a class="offer__link" href="#" alt="men" title="MEN">
-							<div class="offer__women">
-								<div class="offer__title-women">
-									<p class="offer__title-black">30% offer</p>
-									<p class="offer__title-pink">women</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</section>
-			</div>
-		</div>
-		<!--конец offer-->
-		<!--Начало featured-items-->
-		<div class="featured-items">
-			<div class="container">
-				<header class="featured-items__title">
-					<p class="featured-items__title-black">Featured items</p>
-					<p class="featured-items__title-grey">Shop for items based on what we featured in this week</p>
-				</header>
-				<section class="featured-items__flex">
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-bag.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-bag2.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-bag3.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-pram.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-pram2.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-pram3.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-pram4.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-					<a class="featured-items__link" href="single-page.html" alt="item">
-						<div class="featured-items__item">
-							<div class="featured-items__top">
-								<img class="suka" src="images/featured-pram5.jpg">
-								<p class="featured-items__item-title">Baby pram</p>
-								<p class="featured-items__item-price">$52.00</p>
-							</div>
-							<div class="featured-items__bottom">
-								<a class="featured-items__bottom-link" href="https://ya.ru" alt="Add to cart" target="_blank">
-							<img src="images/cart-image-white.svg">
-							<p class="featured-items__bottom-text">Add to cart</p>
-							</a>
-							</div>
-						</div>
-					</a>
-				</section>
-				<a class="featured-items__button-link" href=# title="browse all products">
-					<div class="featured-items__button">
-						<p class="featured-items__button-text">Browse All Product</p>
-						<img class="featured-items__button-img" src="images/arrow.png">
-					</div>
-				</a>
-			</div>
-		</div>
-		<!--Конец featured-items-->
-		<!--начало women offer-->
-		<article class="women-offer">
-			<div class="container">
-				<div class="women-offer__flex">
-					<div class="women-offer__left">
-						<p class="women-offer__text-top">30% <span class="women-offer__text-top_decoration">offer</span></p>
-						<p class="women-offer__text-bottom">for women</p>
-					</div>
-					<div class="women-offer__right">
-						<div class="women-offer__right-img"></div>
-						<div class="women-offer__right-txt">
-							<h3 class="women-offer__right-txt_title first">Free Delivery</h3>
-							<p class="women-offer-right-txt_txt">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.`</p>
-							<h3 class="women-offer__right-txt_title second">Sales & discounts</h3>
-							<p class="women-offer-right-txt_txt">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-							<h3 class="women-offer__right-txt_title third">Quality assurance</h3>
-							<p class="women-offer-right-txt_txt">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-						</div>
-					</div>
+	</div>
+	<!--конец breadcrumbs-->
+	<!--начало slider-for-single-page-->
+	<section class="slider-for-single-page">
+		<div id="carouselExampleControls" class="carousel slide background-color-slider">
+			<div class="carousel-inner">
+				<div class="carousel-item active text-align">
+					<img class="d-block slider-img" src="images/single-page-1.jpg" width="480px" height="600px" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block slider-img" width="480px" height="600px" src="images/single-page-2.jpg" alt="Second slide">
 				</div>
 			</div>
-		</article>
-		<!--конец women offer-->
-	</main>
-	<!--начало subcription-->
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+		</div>
+	</section>
+	<!--конец slider-for-single-page-->
+	<!--начало slider-description-->
+	<section class="slides-description">
+		<div class="container">
+		<div class="slides-description__relative">
+			<div class="slides-description__content">
+				<div class="slider-description__content-top">
+					<p class="slider__description-section-title">women collection</p>
+					<div class="slider__description-section-title-border"></div>
+					<p class="slider__description-product-title">Moschino Cheap And Chic</p>
+					<p class="slider__description-product-description">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+					<div class="slider__description-about-flex">
+						<p class="slider__description-about-text slider-description-about-kostyl"><span class="slider__description-about_span">material: </span>cotton</p>
+						<p class="slider__description-about-text"><span class="slider__description-about_span">designer: </span>binburhan</p>
+					</div>
+					<p class="slider-description-about-price">$561</p>
+				</div>
+				<div class="slider-description__content-bottom"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--конец slider-description-->
+	<!--конец slider-for-single-page-->
 	<div class="subscription">
 		<div class="container fix-for-mobile">
 			<div class="subscription__flex">
@@ -601,6 +440,9 @@
 
 
 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

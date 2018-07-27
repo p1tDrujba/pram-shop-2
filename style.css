@@ -3,6 +3,25 @@
 	margin: 0 auto;
 }
 
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {}
+
+p {
+	margin-top: 1em
+}
+
+h3 {
+	margin-top: 0;
+}
+
+body {
+	line-height: normal;
+}
+
 /*начало header*/
 
 .header-flex {
@@ -223,7 +242,7 @@
 	padding: 20px;
 	position: absolute;
 	z-index: 110;
-	padding-top: 0px;
+	padding-top: 10px;
 	display: flex;
 	border: 1px solid #e6e6e6;
 	box-sizing: border-box;
@@ -247,6 +266,7 @@
 
 .nav__mega-menu-flex {
 	margin-right: 30px;
+	margin-top: 10px;
 }
 
 .nav__mega-menu-flex:last-child {
@@ -1130,7 +1150,6 @@
 	padding-left: 20px;
 	position: absolute;
 	z-index: 110;
-	padding-top: 0px;
 	border: 1px solid #e6e6e6;
 	box-sizing: border-box;
 	top: 35px;
@@ -1166,4 +1185,181 @@
 	display: block;
 	height: 32px;
 	width: 29px;
+}
+
+.breadcrumbs__flex {
+	display: flex;
+	justify-content: space-between;
+	height: 148px;
+	align-items: center;
+}
+
+
+
+.breadcrumps {
+	background-color: #f8f3f4;
+}
+
+.breadcrumbs__title {
+	font-family: Lato;
+	color: #f16d7f;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.breadcrumbs__link {
+	font-family: Lato;
+	color: #636363;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.breadcrumbs__actual-page {
+	font-family: Lato;
+	color: #f16d7f;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	text-transform: uppercase;
+
+}
+
+.background-color-slider {
+	background-color: #f7f7f7;
+	height: 777px;
+}
+
+
+
+.slider-img {
+	margin: 0 auto;
+}
+
+
+.slides-description__content {
+	margin: 0 auto;
+	height: 730px;
+	width: 1141px;
+	background-color: white;
+	border: 1px solid #eaeaea;
+	box-sizing: border-box;
+	margin-top: -85px;
+}
+
+
+
+.carousel-control-prev-icon {
+	background-color: rgba(42, 42, 42, 0.15);
+}
+
+.carousel-control-next-icon {
+	background-color: rgba(42, 42, 42, 0.15);
+}
+
+.slides-description__relative {
+	position: relative;
+}
+
+
+
+.slider-description__content-top {
+	height: 400px;
+	width: 642px;
+	margin: 0 auto;
+	border-bottom: 1px solid #eaeaea;
+	position: relative;
+}
+
+.slider__description-section-title {
+	font-family: Lato;
+	color: #f16d7f;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #eaeaea;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 73px;
+}
+
+.slider__description-section-title-border {
+	height: 3px;
+	width: 63px;
+	background-color: #ef5b70;
+	position: absolute;
+	top: 23px;
+	left: 287px;
+}
+
+.slider__description-product-title {
+	font-family: Lato;
+	color: #4d4d4d;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+	margin-top: 17px;
+	text-align: center;
+}
+
+.slider__description-product-description {
+	font-family: Lato;
+color:  #5e5e5e;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+	display: block;
+	margin-top: 67px;
+}
+
+.slider__description-about-text {
+	font-family: Lato;
+color:  #2f2f2f;
+font-size: 14px;
+font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 44px;
+}
+
+.slider__description-about_span {
+	font-family: Lato;
+color:  #b9b9b9;
+font-size: 14px;
+font-weight: 700;
+	text-transform: uppercase;
+}
+
+.slider__description-about-flex {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+
+
+
+
+.slider-description-about-kostyl {
+	margin-left: 0;
+}
+
+.slider-description-about-price {
+	font-family: Lato;
+color:  #ef5b70;
+font-size: 24px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+	margin-top: 48px;
+}
+
+.slider-for-single-page {
+	border: 1px solid #eaeaea;
 }
