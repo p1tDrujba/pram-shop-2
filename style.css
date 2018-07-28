@@ -495,7 +495,6 @@ body {
 }
 
 .featured-items__flex {
-	height: 765px;
 	width: 1139px;
 	margin: 0 auto;
 	margin-top: 60px;
@@ -1247,6 +1246,7 @@ body {
 	border: 1px solid #eaeaea;
 	box-sizing: border-box;
 	margin-top: -85px;
+	margin-bottom: 119px;
 }
 
 
@@ -1271,6 +1271,7 @@ body {
 	margin: 0 auto;
 	border-bottom: 1px solid #eaeaea;
 	position: relative;
+	margin-bottom: 63px;
 }
 
 .slider__description-section-title {
@@ -1310,29 +1311,30 @@ body {
 
 .slider__description-product-description {
 	font-family: Lato;
-color:  #5e5e5e;
-font-size: 14px;
-font-weight: 300;
-line-height: 24px;
-text-align: center;
+	color: #5e5e5e;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: center;
 	display: block;
 	margin-top: 67px;
 }
 
 .slider__description-about-text {
 	font-family: Lato;
-color:  #2f2f2f;
-font-size: 14px;
-font-weight: 700;
+	color: #2f2f2f;
+	font-size: 14px;
+	font-weight: 700;
 	text-transform: uppercase;
 	margin-left: 44px;
+
 }
 
 .slider__description-about_span {
 	font-family: Lato;
-color:  #b9b9b9;
-font-size: 14px;
-font-weight: 700;
+	color: #b9b9b9;
+	font-size: 14px;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -1352,14 +1354,188 @@ font-weight: 700;
 
 .slider-description-about-price {
 	font-family: Lato;
-color:  #ef5b70;
-font-size: 24px;/* Приближение из-за подстановки шрифтов */
-font-weight: 700;
-line-height: 24px;/* Приближение из-за подстановки шрифтов */
-text-align: center;
+	color: #ef5b70;
+	font-size: 24px;
+	/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;
+	/* Приближение из-за подстановки шрифтов */
+	text-align: center;
 	margin-top: 48px;
 }
 
 .slider-for-single-page {
 	border: 1px solid #eaeaea;
+}
+
+
+
+.slider-description__form {
+	display: flex;
+	flex-wrap: wrap;
+	width: 537px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.slider-description__form-select {
+	border: 1px solid #eaeaea;
+	display: block;
+	width: 144px;
+	height: 35px;
+	margin: 0;
+	font-family: Lato;
+	color: #bcbcbc;
+	font-size: 13px;
+	font-weight: 400;
+	padding-left: 37px;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	margin-top: 16px;
+
+}
+
+.slider-description__content-bottom:after {
+	content: "";
+	width: 9px;
+	height: 5px;
+	background-image: url(images/form-arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	position: absolute;
+	left: 428px;
+	bottom: 97px;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+
+.slider-description__form:after {
+	content: "";
+	width: 9px;
+	height: 5px;
+	background-image: url(images/form-arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	position: absolute;
+	left: 619px;
+	bottom: 97px;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+
+.slider-description__form-select-size {
+	border: 1px solid #eaeaea;
+	display: block;
+	width: 144px;
+	height: 35px;
+	margin: 0;
+	font-family: Lato;
+	color: #bcbcbc;
+	font-size: 13px;
+	font-weight: 400;
+	padding-left: 15px;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	margin-top: 16px;
+
+}
+
+.form-text {
+	margin: 0;
+}
+
+.slider-description__form-submit {
+	width: 537px;
+	margin-top: 28px;
+	height: 55px;
+	background-color: white;
+	border: 1px solid #ef5b70;
+	font-family: Lato;
+	color: #ef5b70;
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	position: relative;
+	padding-left: 57px;
+}
+
+.slider-description__form-submit:hover {
+	cursor: pointer;
+	border: 2px solid #ef5b70;
+	font-weight: bold;
+}
+
+.slider-description__form-label:after {
+	content: "";
+	width: 26px;
+	height: 24px;
+	background-image: url(images/form-cart.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	position: absolute;
+	left: 516px;
+	bottom: 16px;
+	pointer-events: none;
+	box-sizing: border-box;
+	z-index: 2000;
+
+}
+
+.slider-description__form-label {
+	margin: 0;
+}
+
+.slider-description__content-bottom {
+	position: relative;
+}
+
+.slider-description__form-select-number {
+	width: 144px;
+	height: 35px;
+	border: 1px solid #eaeaea;
+	box-sizing: border-box;
+	margin-top: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Lato;
+	color: #bcbcbc;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.slider-description__form-select-number::-webkit-outer-spin-button,
+.slider-description__form-select-number::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+
+
+.you-may-like-img {
+	width: 261px;
+	height: 280px;
+	text-align: center;
+}
+
+.you-may-like-text {
+	color: #6f6e6e;
+}
+
+.you-may-like__title {
+	font-family: Lato;
+	color: #4d4d4d;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 72px;
+
+}
+
+.you-may-like {
+	margin-bottom: 73px;
 }
