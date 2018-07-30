@@ -1214,6 +1214,7 @@ body {
 	font-weight: 300;
 	line-height: 14px;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .breadcrumbs__actual-page {
@@ -1223,6 +1224,7 @@ body {
 	font-weight: 700;
 	line-height: 14px;
 	text-transform: uppercase;
+	text-decoration: none;
 
 }
 
@@ -1538,4 +1540,108 @@ body {
 
 .you-may-like {
 	margin-bottom: 73px;
+}
+
+.checkout__title::-webkit-details-marker {
+	display: none;
+}
+
+.checkout__item {
+	border: 1px solid #e8e8e8;
+	margin-top: 89px;
+	margin-bottom: 50px;
+}
+
+.checkout__title {
+	font-family: Lato;
+	color: #222222;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.checkout {
+	position: relative;
+}
+
+.checkout__inside-title {
+	font-family: Lato;
+	color: #222222;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.checkout__inside-sign {
+	font-family: Lato;
+	color: #b3b2b2;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.checkout-inside-sign-list-item {
+	font-family: Lato;
+	color: #b3b2b2;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.checkout__geuest-checkbox-label {
+	font-family: Lato;
+	color: #222222;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+.checkout__guest-checkbox[type="checkbox"] {
+	display: none;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label::before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label::after {
+	content: "";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 8px;
+	background-color: black;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label {
+	position: relative;
+	margin-left: 28px;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label:hover {
+	cursor: pointer;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label::after,
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label::before {
+	position: absolute;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label::before {
+	left: -28px;
+	top: 0px;
+}
+
+.checkout__guest-checkbox[type="checkbox"] + .checkout__geuest-checkbox-label::after {
+	left: -24px;
+	top: 4px;
+	content: none;
+}
+
+.checkout__guest-checkbox[type="checkbox"]:checked + .checkout__geuest-checkbox-label::after {
+	content: "";
 }
