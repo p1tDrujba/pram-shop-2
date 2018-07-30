@@ -59,7 +59,7 @@
 				</div>
 				<div class="right-side-header">
 					<div class="right-side-header__cart"><a class="right-side-header__cart-link" href="#" alt="cart"></a></div>
-					<a сlass="right-side-header__account-link" href="#">
+					<a сlass="right-side-header__account-link" href="checkout.html">
 						<div class="right-side-header__button">
 							<p class="right-side-header__button-text">My Account</p>
 							<div class="right-side-header__button-triangle"></div>
@@ -84,34 +84,268 @@
 	<!--конец breadcrumbs-->
 	<!--начало checkout-->
 	<section class="checkout">
-		<div class="container">
+		<div class="container checkout__list">
 			<details class="checkout__item">
 				<summary class="checkout__title">01. shipping adress</summary>
 				<div class="checkout__item-flex">
-					<form>
+					<form class="checkout__left-form">
 						<p class="checkout__inside-title">check as a guest or register</p>
 						<p class="checkout__inside-sign">Register with us for future convenience</p>
-						<div class="suka">
-						<input class="checkout__guest-checkbox" type="checkbox" id="guest-checkbox">
-						<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
+						<div class="checkout__radio1">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="guest-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
 						</div>
-						<div class="sukaa">
-						<input class="checkout__guest-checkbox" type="checkbox" id="register-checkbox">
-						<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">regiter</label>
+						<div class="checkbox__radio2">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="register-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">register</label>
 						</div>
-
 						<p class="checkout__inside-title">register and save time!</p>
 						<p class="checkout__inside-sign">Register with us for future convenience</p>
 						<ul class="checkout__inside-sign-list">
-							<li class="checkout-inside-sign-list-item">Fast and easy checkout</li>
-							<li class="checkout-inside-sign-list-item">Easy access to your order history and status</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
 						</ul>
-						<input type="submit" value="continue">
+						<input class="checkout__SA-button" type="submit" value="continue">
+					</form>
+					<form class="checkout__right-form">
+						<p class="checkout__inside-title">already registred</p>
+						<p class="checkout__inside-sign">Please log in below</p>
+						<label class="checkout__checkbox-label">
+							<p>email-adress <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__email-input" type="email" required>
+						</label>
+						<label class="checkout__checkbox-label">
+							<p>password <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__password-input" type="password" required>
+						</label>
+						<p class="checkout__inside-sign checkout__inside-text-red">* Required Fields</p>
+						<div class="checkout__log-in-flex">
+							<input class="checkout__SA-button ddd" type="submit" value="log in">
+							<a href="#" class="checkout__forgot-link">Forgot password?</a>
+						</div>
+					</form>
+				</div>
+			</details>
+			<details class="checkout__item">
+				<summary class="checkout__title">02. billing information</summary>
+				<div class="checkout__item-flex">
+					<form class="checkout__left-form">
+						<p class="checkout__inside-title">check as a guest or register</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<div class="checkout__radio1">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="guest-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
+						</div>
+						<div class="checkbox__radio2">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="register-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">register</label>
+						</div>
+						<p class="checkout__inside-title">register and save time!</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<ul class="checkout__inside-sign-list">
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
+						</ul>
+						<input class="checkout__SA-button" type="submit" value="continue">
+					</form>
+					<form class="checkout__right-form">
+						<p class="checkout__inside-title">already registred</p>
+						<p class="checkout__inside-sign">Please log in below</p>
+						<label class="checkout__checkbox-label">
+							<p>email-adress <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__email-input" type="email" required>
+						</label>
+						<label class="checkout__checkbox-label">
+							<p>password <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__password-input" type="password" required>
+						</label>
+						<p class="checkout__inside-sign checkout__inside-text-red">* Required Fields</p>
+						<div class="checkout__log-in-flex">
+							<input class="checkout__SA-button ddd" type="submit" value="log in">
+							<a href="#" class="checkout__forgot-link">Forgot password?</a>
+						</div>
+					</form>
+				</div>
+			</details>
+			<details class="checkout__item">
+				<summary class="checkout__title">03. shipping information</summary>
+				<div class="checkout__item-flex">
+					<form class="checkout__left-form">
+						<p class="checkout__inside-title">check as a guest or register</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<div class="checkout__radio1">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="guest-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
+						</div>
+						<div class="checkbox__radio2">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="register-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">register</label>
+						</div>
+						<p class="checkout__inside-title">register and save time!</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<ul class="checkout__inside-sign-list">
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
+						</ul>
+						<input class="checkout__SA-button" type="submit" value="continue">
+					</form>
+					<form class="checkout__right-form">
+						<p class="checkout__inside-title">already registred</p>
+						<p class="checkout__inside-sign">Please log in below</p>
+						<label class="checkout__checkbox-label">
+							<p>email-adress <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__email-input" type="email" required>
+						</label>
+						<label class="checkout__checkbox-label">
+							<p>password <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__password-input" type="password" required>
+						</label>
+						<p class="checkout__inside-sign checkout__inside-text-red">* Required Fields</p>
+						<div class="checkout__log-in-flex">
+							<input class="checkout__SA-button ddd" type="submit" value="log in">
+							<a href="#" class="checkout__forgot-link">Forgot password?</a>
+						</div>
+					</form>
+				</div>
+			</details>
+			<details class="checkout__item">
+				<summary class="checkout__title">04. shipping method</summary>
+				<div class="checkout__item-flex">
+					<form class="checkout__left-form">
+						<p class="checkout__inside-title">check as a guest or register</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<div class="checkout__radio1">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="guest-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
+						</div>
+						<div class="checkbox__radio2">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="register-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">register</label>
+						</div>
+						<p class="checkout__inside-title">register and save time!</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<ul class="checkout__inside-sign-list">
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
+						</ul>
+						<input class="checkout__SA-button" type="submit" value="continue">
+					</form>
+					<form class="checkout__right-form">
+						<p class="checkout__inside-title">already registred</p>
+						<p class="checkout__inside-sign">Please log in below</p>
+						<label class="checkout__checkbox-label">
+							<p>email-adress <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__email-input" type="email" required>
+						</label>
+						<label class="checkout__checkbox-label">
+							<p>password <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__password-input" type="password" required>
+						</label>
+						<p class="checkout__inside-sign checkout__inside-text-red">* Required Fields</p>
+						<div class="checkout__log-in-flex">
+							<input class="checkout__SA-button ddd" type="submit" value="log in">
+							<a href="#" class="checkout__forgot-link">Forgot password?</a>
+						</div>
+					</form>
+				</div>
+			</details>
+			<details class="checkout__item">
+				<summary class="checkout__title">05. payment method</summary>
+				<div class="checkout__item-flex">
+					<form class="checkout__left-form">
+						<p class="checkout__inside-title">check as a guest or register</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<div class="checkout__radio1">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="guest-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
+						</div>
+						<div class="checkbox__radio2">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="register-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">register</label>
+						</div>
+						<p class="checkout__inside-title">register and save time!</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<ul class="checkout__inside-sign-list">
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
+						</ul>
+						<input class="checkout__SA-button" type="submit" value="continue">
+					</form>
+					<form class="checkout__right-form">
+						<p class="checkout__inside-title">already registred</p>
+						<p class="checkout__inside-sign">Please log in below</p>
+						<label class="checkout__checkbox-label">
+							<p>email-adress <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__email-input" type="email" required>
+						</label>
+						<label class="checkout__checkbox-label">
+							<p>password <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__password-input" type="password" required>
+						</label>
+						<p class="checkout__inside-sign checkout__inside-text-red">* Required Fields</p>
+						<div class="checkout__log-in-flex">
+							<input class="checkout__SA-button ddd" type="submit" value="log in">
+							<a href="#" class="checkout__forgot-link">Forgot password?</a>
+						</div>
+					</form>
+				</div>
+			</details>
+			<details class="checkout__item">
+				<summary class="checkout__title">06. order review</summary>
+				<div class="checkout__item-flex">
+					<form class="checkout__left-form">
+						<p class="checkout__inside-title">check as a guest or register</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<div class="checkout__radio1">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="guest-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="guest-checkbox" class="checkout__checkbox-label">checkout as guest</label>
+						</div>
+						<div class="checkbox__radio2">
+							<input name="shipping-adress" class="checkout__guest-checkbox" type="radio" id="register-checkbox">
+							<label class="checkout__geuest-checkbox-label" for="register-checkbox" class="checkout__checkbox-label">register</label>
+						</div>
+						<p class="checkout__inside-title">register and save time!</p>
+						<p class="checkout__inside-sign">Register with us for future convenience</p>
+						<ul class="checkout__inside-sign-list">
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Fast and easy checkout</li>
+							<li class="checkout-inside-sign-list-item">
+								<i class="fas fa-angle-double-right"></i> Easy access to your order history and status</li>
+						</ul>
+						<input class="checkout__SA-button" type="submit" value="continue">
+					</form>
+					<form class="checkout__right-form">
+						<p class="checkout__inside-title">already registred</p>
+						<p class="checkout__inside-sign">Please log in below</p>
+						<label class="checkout__checkbox-label">
+							<p>email-adress <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__email-input" type="email" required>
+						</label>
+						<label class="checkout__checkbox-label">
+							<p>password <span class="checkout__inside-text-red">*</span></p>
+							<input class="checkout__password-input" type="password" required>
+						</label>
+						<p class="checkout__inside-sign checkout__inside-text-red">* Required Fields</p>
+						<div class="checkout__log-in-flex">
+							<input class="checkout__SA-button ddd" type="submit" value="log in">
+							<a href="#" class="checkout__forgot-link">Forgot password?</a>
+						</div>
 					</form>
 				</div>
 			</details>
 		</div>
 	</section>
+	<!--в каждом чекаут item нужны уникальные id для радио -->
 	<!--конец checkout-->
 	<!--начало subcription-->
 	<div class="subscription">
